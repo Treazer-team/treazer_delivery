@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Treazer Delivery",
+    "slug": "Treazer Delivery",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/delivery/delivery-bike.png",
+    "primaryColor":"#bbdefb",
+    "splash": {
+      "image": "./src/assets/delivery/delivery-bike.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#e3f2fd",
+      "themeColor": "#bbdefb"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/delivery/delivery-bike.png",
+        "backgroundColor": "#e3f2fd"
+      }
+    },
+    "web": {
+    "display": "standalone",
+    "lang": "en",
+    "name": "Treazer Delivery",
+    "shortName": "Treazer Delivery",
+    "startUrl": "/?utm_source=web_app_manifest",
+    "backgroundColor": "#e3f2fd",
+    "themeColor": "#bbdefb",
+    "favicon": "./src/assets/delivery/delivery-bike6.png"
+
+    }
+  }
+}
